@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name='postlab.Fabrics' table='postlab8'>
+		<id name='Id' column='id'/>
+		<property name='type' column='type'/>
+		<property name='color' column='color'/>
+		<property name='length' column='length'/>
+		<property name='costPerLength' column='cost_per_meter'/>
+
+	</class>
+</hibernate-mapping>
